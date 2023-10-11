@@ -6,7 +6,13 @@
 
 // Ejercicios con funciones
 
-// function generarInvitados()
+function generarInvitados() {
+    let invitado1 = prompt("ingrese un nombre");
+    let invitado2 = prompt("ingrese otro nombre");
+    let invitado3 = prompt("ingrese un ultimo nombre");
+
+    console.log(`los invitados son, ${invitado1}, ${invitado2} y ${invitado3}.`);
+}
 
 /*
 Alumno: Crear la función "generarInvitados"
